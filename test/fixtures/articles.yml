@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+balboa:
+  title: 'Balboa'
+  body: 'Balboa is a great dance!'
+
+lindy_hop:
+  title: 'Lindy Hop'
+  body: 'Lindy Hop is also really cool!'

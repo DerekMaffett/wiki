@@ -1,0 +1,4 @@
+<h3>Articles modified by <%= @user.email %>: </h3>
+
+<ul><%= render(partial: 'users/article',
+  collection: @articles) || 'This user has no contributions' %></ul>
