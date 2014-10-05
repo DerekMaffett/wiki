@@ -9,6 +9,7 @@ gem 'guard-bundler'
 gem 'guard-livereload'
 gem 'guard-rails'
 gem 'jquery-rails'
+gem 'minitest-rails'
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -23,4 +24,8 @@ group :development do
   gem 'spring'
   gem 'rails_layout'
   gem 'seed_dump'
+end
+
+group :test do
+  gem 'minitest-rails-capybara'
 end
